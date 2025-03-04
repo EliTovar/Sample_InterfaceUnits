@@ -1,0 +1,62 @@
+#Container{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#title{
+    margin: auto;
+}
+
+.Propieties {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.Propieties input[type="number"], select{
+    width: 70px;
+}
+
+.Propieties label{
+    padding: 3px;
+}
+
+#unidad{
+    display: flex;
+    margin-top: -21px;
+    margin-left: 80px;
+    padding: 1px;
+    width: 40px;
+}
+
+#chkbox{
+    display: flex;
+    margin-top: -23px;
+    margin-left: 120px;
+    padding: 1px;
+    width: 40px;
+}
+
+#crearBoton{
+    margin: 10px auto;
+    padding: 5px;
+    width: 100px;
+}
+
+#resultado{
+    margin: 10px auto;
+}
+
+.cat{
+    display: flex;
+    margin-left: 1760px;
+    margin-top: -520px;
+    height: 120px;
+}

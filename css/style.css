@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}*/
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: rgb(231, 232, 237);
+}
+
+#info-u1t, #info-u1p, #info-u1pr, #info-u2t, #info-u2p, #info-u2pr, #info-u3t, #info-u3p, #info-u3pr {
+    display: none;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    cursor: pointer;
+}
+
+#Unidad-u1t, #Unidad-u1p, #Unidad-u1pr, #Unidad-u2t, #Unidad-u2p, #Unidad-u2pr, #Unidad-u3t, #Unidad-u3p, #Unidad-u3pr {
+    cursor: pointer;
+}
+
+.nav{
+    width: 450px;
+}
+
+.list {
+    border-radius: 0 16px 16px 0;
+    background: #fff;
+    position: fixed; /* Fija el contenedor en su lugar */
+    top: 0; /* Alinea la parte superior del contenedor con la parte superior de la ventana */
+    left: 0; /* Alinea el lado izquierdo del contenedor con el lado izquierdo de la ventana */
+    bottom: 0; /* Alinea la parte inferior del contenedor con la parte inferior de la ventana */
+    overflow: auto; /* Permite el desplazamiento dentro del contenedor si el contenido es demasiado grande */
+    width: 400px; /* Asegura que el contenedor ocupe el ancho completo */
+    
+}
+
+.list_inside {
+    padding: 10px;
+    list-style: none;
+}
+
+#img1{
+    height: 700px;
+    margin-left: 1190px;
+}
+
+/*#img2{
+    
+    margin-top: 700px;
+    height: 100px;
+    margin-left: -700px;
+}*/
+
+/*#img3{
+    margin-left: -400px;
+    position: absolute;
+    margin-top: 20px;
+}*/

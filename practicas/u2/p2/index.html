@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+  
+  <form action="aspirantes.php" method="POST">
+    <body>
+      <h1>Formulario para registro de aspirantes</h1>
+  
+      <div class="contenido">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" maxlength="50" required>
+        
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" max="50" required>
+
+        <label>Sexo: </label>
+        <label>Hombre</label>
+        <input type="radio" id="hombre" name="sexo" value="H" required>
+        <label>Mujer</label>
+        <input type="radio" id="mujer" name="sexo" value="M" required>
+        <label>Robot</label>
+        <input type="radio" id="robot" name="sexo" value="R" required>
+
+        <label>Correo: </label>
+        <input type="text" id="correo" name="correo" max="50" required>
+
+        <label for="nivelEstudios">Nivel de estudios:</label>
+        <select id="nivelEstudios" name="nivelEstudios" required>
+          <option value="Primaria">Primaria</option>
+          <option value="Secundaria">Secundaria</option>
+          <option value="Bachillerato">Bachillerato</option>
+          <option value="Licenciatura">Licenciatura</option>
+          <option value="Maestría">Maestría</option>
+          <option value="Doctorado">Doctorado</option>
+        </select>
+    
+        <label for="objetivoProfesional">Objetivo profesional:</label>
+    <textarea id="objetivoProfesional" name="objetivoProfesional" rows="4" required></textarea>
+
+    
+    <label for="recibirInformacion">Deseo recibir información sobre futuras oportunidades de empleo</label>
+    <input type="checkbox" id="recibirInformacion" name="recibirInformacion" checked>
+
+    <label for="aceptarCondiciones">Declaro haber leído y acepto las condiciones generales del programa y la normativa sobre protección de datos</label>
+    <input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" required>
+
+
+    <button type="submit">Enviar</button>
+      </div>
+    </body>
+  </form>
+
+  
+</html>

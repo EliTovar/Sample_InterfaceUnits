@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #miDiv {
+    width: 300px;
+    height: 300px;
+    border: 2px dotted darkgrey;
+    background-color: red;
+    border-radius: 20px;
+  }
+  

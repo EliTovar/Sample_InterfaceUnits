@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Diseñar Botones</title>
+</head>
+<body>
+    
+    <div id="Container">
+        <h2 id="title">Modificar Propiedades</h2>
+
+            <div class="Propieties">
+                <label for="colorFondo">Color del Fondo</label>
+                <input type="color" id="colorFondo">
+
+                <label for="colorFuente">Color de Fuente</label>
+                <input type="Color" id="colorFuente">
+
+                <label for="alto">Altura</label>
+                <input type="number" id="alto">
+
+                <label for="ancho">Anchura</label>
+                <input type="number" id="ancho">
+
+                <label for="padd">Padding</label>
+                <input type="number" id="padd">
+
+                <label for="estilo">Estilo de Texto</label>
+                <select id="estiloTexto">
+                    <option value="normal">Normal</option>
+                    <option value="italic">Itálica</option>
+                    <option value="bold">Negrita</option>
+                </select>
+
+                <label for="esquinas">Esquinas Redondeadas</label>
+                
+                <input type="number" id="esquinas">
+
+                <select id="unidad">
+                    <option value="px">px</option>
+                    <option value="%">%</option>
+                </select>
+
+                <div id="chkbox">
+                 <label for="habilitarEsquinas">Radio</label>
+                <input type="checkbox" id="habilitarEsquinas">   
+                </div>
+                
+
+                <button id="crearBoton">Crear Botón</button>
+            </div>   
+    </div>
+           <div id="resultado"></div>
+           <!--<button id="resultado">...</button>-->
+            
+    <script src="js/main.js"></script>
+
+    <img class="cat" src="img/animacion-tipiando-transparent.gif" alt="Prueba de carpetas">
+
+</body>
+</html>

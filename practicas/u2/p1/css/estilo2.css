@@ -1,0 +1,95 @@
+table.tabla{
+    margin-top: 0%;
+    border-collapse: collapse;
+    font-family: Montserrat;
+}
+
+.tabla1{
+    font-size: 13px;
+    width: 160px;
+    border: 3px black solid;
+    position: absolute;
+    top:161px;
+    left: 40px;
+
+    color: transparent;
+    z-index: 2;
+}
+
+.tabla2{
+    font-size: 13px;
+    width: 65px;
+    border: 3px black dashed;
+    position: absolute;
+    top:195px;
+    left: 40px;
+
+    color: transparent;
+    z-index: 2;
+}
+
+
+
+.flecha{
+    width: 46px;
+    height: 33px;
+    position: relative;
+    z-index: 1;
+
+    top: 216px;
+    left: 33px;
+}
+
+.circle {
+    width: 36px;
+    height: 35px;
+    position: relative;
+    z-index: 1;
+    
+    top: 90px;
+    right: 16px;
+}
+
+.uno span{
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.veintinueve,.treinta span{
+    position: relative;
+    z-index: 2;
+}
+
+.D,.L,.M,.J,.V,.S{
+    
+    color: rgb(33, 4, 104);
+    background-color: rgb(217, 217, 217);
+    text-align: left;
+}
+
+.dos{
+    background-color: rgb(252, 156, 0);
+}
+
+.ocho,.nueve,.diez,.once,.doce,.quince,.diecises,.diecisiete,.dieciocho,.diecinueve{
+    background-color: rgb(237, 255, 0);
+}
+
+.veintidos,.veintitres,.veinticuatro,.veinticinco,.veintiseis{
+    background-color: rgb(121, 221, 31);
+}
+
+td{
+    text-align: center;
+    padding: 0.4em;
+}
+
+
+
+
+.tabla th{
+    text-align: left;
+    background-color: #002060;
+    color:white;
+}

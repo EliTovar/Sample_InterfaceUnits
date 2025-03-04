@@ -1,0 +1,82 @@
+#product-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#Reel{
+    display: flex;
+    flex-direction:row;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#telefono1,#telefono2,#telefono3,#telefono4,#telefono5{
+    display: flex;
+    margin-top: 0px;
+    max-width: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    align-self: center;
+}
+
+#image-specs-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+#product-image {
+    margin-top: -80px;
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+/* Para el color rojo */
+.price-red {
+    color: red;
+}
+
+#product-info {
+    display: flex;
+    flex-direction: column; /* Organiza el precio y las especificaciones */
+}
+
+#product-specs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#product-name {
+    margin: 10px 0px 10px 380px;
+}
+
+
+/* Estilos para elementos de la lista de especificaciones */
+#product-specs li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#product-specs li:last-child {
+    border-bottom: none;
+}
+
+
+.common-spec-style {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.spec-label {
+    font-weight: bold; /* Hace que la etiqueta sea en negrita */
+}
+
+
+
